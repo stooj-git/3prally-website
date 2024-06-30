@@ -1023,9 +1023,17 @@ html.w-mod-js [data-ix="hide-on-load"] {
     max-width: 100%;
     max-height: none;
   }
+
+  .facebook {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 479px) {
+  .footer-title {
+    position: static;
+  }
+
   .main-image {
     margin-top: 0;
   }
@@ -1070,6 +1078,25 @@ html.w-mod-js [data-ix="hide-on-load"] {
     min-width: 0;
     max-width: 100%;
     display: block;
+  }
+
+  .x-twitter {
+    float: none;
+    clear: both;
+    text-align: left;
+    flex-flow: column;
+    justify-content: center;
+    display: block;
+    position: static;
+    overflow: hidden;
+  }
+
+  .facebook {
+    box-sizing: border-box;
+    aspect-ratio: auto;
+    text-align: left;
+    object-fit: fill;
+    position: static;
   }
 }
 

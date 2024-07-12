@@ -1120,5 +1120,5 @@ html.w-mod-js [data-ix="hide-on-load"] {
   src: url('../fonts/Roboto-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
-  font-display: swap;
+  font-display: auto;
 }
